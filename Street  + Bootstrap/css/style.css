@@ -1,0 +1,409 @@
+* {
+    /* Umumiy buyuruq uchun*/
+    margin: 0;
+    /* -----Ortiqcha marginlarni olib tashlash uchun----- */
+    padding: 0;
+    /*------Ortiqcha paddinglarni olib tashlash uchun------- */
+    box-sizing: border-box;
+    /* ---Padding berganda box hajmi o'zgarmasligi uchun--- */
+    text-decoration: none !important;
+    /* ---A tegi tagidagi chiziqni olish uchun--- */
+    list-style: none !important;
+    /*-- Ul-li dagi nuqtachani olish uchun---  */
+
+}
+
+:root {
+    --ff-ro: 'Roboto', sans-serif;
+    ;
+}
+
+
+body {
+    font-family: 'Raleway', sans-serif;
+    background: black;
+}
+
+/* -------------Start---a--header------------- */
+
+
+header {
+    width: 100%;
+    height: 768px;
+    background: url(/image/Street_01.jpg) no-repeat center center / cover;
+}
+
+header nav .logo a {
+
+    font-size: 24px;
+    font-weight: 700;
+    color: white;
+    text-transform: uppercase;
+    background: #4e9f0d;
+    border-width: 3px;
+    border-style: solid;
+    border-color: #62be19;
+    border-radius: 5px;
+    padding: 8px 19px 7px 19px;
+    box-shadow: inset 0px 0px 30px rgba(0, 0, 0, 0.1);
+    /* --Soya uchun--- */
+    text-decoration: none;
+}
+
+header nav .logo:hover {
+    opacity: .6;
+    transition: .5s;
+
+}
+
+header nav ul a {
+    font-size: 20px;
+    font-weight: 300;
+    color: #69cf17;
+    padding: 37px 26px 29px 26px;
+    display: flex;
+    align-items: center;
+
+}
+
+header ul a:hover {
+    padding: 37px 26px 29px 26px;
+    color: white;
+    background: rgba(105, 207, 23, .75);
+
+}
+
+header ul a .active {
+    padding: 37px 26px 29px 26px;
+    color: white;
+    background: rgba(105, 207, 23, .75);
+
+}
+
+.active img {
+
+    width: 24px;
+    height: 24px;
+    background: white;
+
+    border-radius: 24px;
+    display: block;
+
+    margin-left: 6px;
+
+}
+
+
+header h1 {
+    font-size: 72px;
+    font-weight: 900;
+    color: #69cf17;
+    text-transform: uppercase;
+    margin-top: 151px;
+}
+
+header h2 {
+    font-size: 36px;
+    font-weight: 400;
+    color: #69cf17;
+    margin-bottom: 35px;
+}
+
+header p {
+    font-size: 18px;
+    font-weight: 400;
+    color: #dedede;
+    margin-bottom: 75px;
+    line-height: 25px;
+}
+
+header .prise {
+    width: 350px;
+    height: 100px;
+    background: rgba(105, 207, 23, .75);
+    align-items: center;
+}
+
+header .prise:hover {
+    opacity: 0.8;
+    transition: .5s;
+    cursor: pointer;
+}
+
+header .first_prise {
+    margin: 0%;
+    font-size: 60px;
+    font-weight: 100;
+
+}
+
+/* <!-- ----------Starting a  Main--------------- --> */
+
+main {
+
+    margin-top: 50px;
+
+}
+
+
+main ul a {
+    font-size: 20px;
+    font-weight: 700;
+    color: #7a7a7a;
+    margin-right: 50px;
+
+
+}
+
+main ul li .active {
+    color: #69cf17;
+}
+
+main ul li .active:hover {
+    color: darkgreen;
+    opacity: .7;
+    transition: 0.5s;
+}
+
+main ul li a:hover {
+    color: white;
+    opacity: .3;
+    transition: 0.2s;
+}
+
+main .row {
+    margin-top: 68px;
+}
+
+main .burgers .burger_img {
+    width: 100%;
+    height: 350px;
+    position: relative;
+}
+
+main .burgers .burger_img img {
+    width: 100%;
+    height: 100%;
+    object-fit: cover;
+}
+
+main .burgers .burger_img .prise_burger {
+    position: absolute;
+    left: 0;
+    bottom: 0;
+    width: 190px;
+    height: 61px;
+    background: rgba(105, 207, 23, .75);
+    align-items: center;
+
+
+}
+
+
+
+
+main .burgers .burger_img .prise_burger :hover {
+    opacity: 0.8;
+    transition: .5s;
+    cursor: pointer;
+}
+
+main .burgers .burger_img .burger_prise {
+    margin: 0%;
+    font-size: 24px;
+    font-weight: 400;
+    color: white;
+
+}
+
+main .burgers .burger_img:hover button {
+    opacity: 1;
+    cursor: pointer;
+    transition: 0.5s;
+}
+
+main .burgers .burger_img:hover .prise_burger {
+    opacity: 00;
+    transition: 0.4s;
+}
+
+main .burgers button {
+    width: 100%;
+    height: 100%;
+    font-size: 24px;
+    font-weight: 700;
+    position: absolute;
+    top: 0;
+    left: 0;
+    border: none;
+    background: rgba(105, 207, 23, .90);
+    color: white;
+    opacity: 0;
+}
+
+
+main .burgers h2 {
+    text-transform: uppercase;
+    margin-top: 32px;
+    font-size: 24px;
+    font-weight: 700;
+    color: #69cf17;
+}
+
+main .burgers p {
+    font-size: 16px;
+    font-weight: 400;
+    color: #dedede;
+    line-height: 24px;
+    
+}
+
+/*  <!-- ---------Starting  a Section------------- -->*/
+
+section {
+    
+    background: url(/image/Cook.jpg) no-repeat center center / cover;
+}
+
+section h2 {
+    text-transform: uppercase;
+    font-size: 36px;
+    font-weight: 700;
+    color: #69cf17;
+    margin-top: 35px;
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+}
+section h2::after {
+    content: "";
+    display: block;
+    width: 200px;
+    height: 1px;
+    background: #69cf17;
+    margin-top: 30px;
+    margin-bottom: 50px;
+    
+}
+
+    
+section p {
+    font-size: 18px;
+    font-weight: 400;
+    color: white;
+}
+section p:last-child {
+    margin: 30px 0 100px 0;
+}
+
+
+
+.map h1 {
+
+font-size: 36px;
+font-weight: 700;
+text-transform: uppercase;
+color: #69cf17;
+padding: 50px 0 60px 0;
+text-align: center;
+background: white;
+margin: 0%;
+}
+
+
+/* <!-- --------------Starting a footer------------ --> */
+
+footer .footer_nav {
+    margin-top: 40px;
+}
+
+footer .footer_nav  a {
+    font-family: var(--ff-ro);
+    color: #4e9f0d;
+    font-size: 24px;
+    font-weight: 700;
+
+}
+
+footer .logo a {
+
+    font-size: 24px;
+    font-weight: 700;
+    color: white;
+    text-transform: uppercase;
+    background: #4e9f0d;
+    border-width: 3px;
+    border-style: solid;
+    border-color: #62be19;
+    border-radius: 5px;
+    padding: 8px 19px 7px 19px;
+    box-shadow: inset 0px 0px 30px rgba(0, 0, 0, 0.1);
+    /* --Soya uchun--- */
+    text-decoration: none;
+}
+
+footer .logo:hover {
+    opacity: .6;
+    transition: .5s;
+
+}
+footer .footer_menu {
+    margin-top: 50px;
+    margin-bottom: 45px;
+}
+
+footer .footer_menu ul {
+    margin: 0;
+}
+footer ul a {
+    
+    font-size: 18px;
+    font-weight: 100;
+    color: white;
+    margin-right: 24px;
+
+}
+
+@media (max-width:991px) {
+header h1 {
+    font-size: 50px;
+    margin-top: 110px;
+}
+    
+
+
+header .prise {
+    width: 328px;
+    height: 85px;
+}
+
+}
+
+@media (max-width:768px) {
+    header h1 {
+        font-size: 50px;
+        margin-top: 110px;
+    }
+    header p {
+    margin-bottom: 30px;
+    }
+
+    .d_md_none {
+        display: none !important;
+    }
+}
+
+
+/* <!-- -----------Finish start------------ --> */
+
+.finish  {
+
+    margin-bottom: 51px;
+}
+
+.finish  a {
+    color: white;
+    font-size: 16px;
+    font-weight: 100;
+}
+
